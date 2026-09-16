@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bôdhi Storymaker</title>
+<meta name="description" content="Bôdhi Storymaker: captação autêntica e cinematográfica para casamentos. Fotos e vídeos que contam a história real do seu dia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="noise-overlay"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#top" class="wordmark"><img src="assets/img/logo-bodhi.png" alt="Bôdhi" class="logo-img"></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#sobre">Sobre</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#videos">Vídeos</a>
+      <a href="#servico">Serviço</a>
+      <a href="#contato" class="nav-cta">Fale com a gente</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-media">
+      <img src="assets/img/hero-anel.jpg" alt="Alianças de casamento sobre a almofada de cerimônia">
+      <div class="hero-scrim"></div>
+    </div>
+    <div class="hero-content">
+      <p class="eyebrow">Bôdhi &middot; Captação e Conteúdo para Redes Sociais</p>
+      <h1>Histórias de amor,<br>contadas em <em>movimento</em>.</h1>
+      <p class="hero-sub">Captação autêntica e cinematográfica para o dia mais importante da sua história. Sem poses forçadas, só o que realmente aconteceu.</p>
+      <div class="hero-actions">
+        <a href="#portfolio" class="btn btn-primary">Ver portfólio</a>
+        <a href="#servico" class="btn btn-ghost">Conhecer o serviço</a>
+      </div>
+    </div>
+    <a href="#sobre" class="scroll-cue" aria-label="Rolar para baixo"><span></span></a>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section about" id="sobre">
+    <div class="container about-grid">
+      <div class="about-image reveal">
+        <img src="assets/img/sobre-retrato.jpg" alt="Mãe e noiva sorrindo antes da cerimônia" loading="lazy">
+      </div>
+      <div class="about-text reveal">
+        <p class="eyebrow">O que é storymaker</p>
+        <h2>Uma narrativa do seu dia.</h2>
+        <p>Storymaker é um jeito diferente de registrar um casamento: em vez de fotos posadas e ensaiadas, a gente documenta a história como ela realmente acontece, os detalhes, os olhares, as risadas escondidas, o clima de cada momento. Tudo pensado para viver de novo em fotos e vídeos curtos, prontos pra guardar e compartilhar.</p>
+        <p>A Bôdhi passa a oferecer esse serviço como parte da nossa expertise em contar histórias: agora, também para o dia mais importante da vida de um casal.</p>
+        <div class="about-stats">
+          <div><span>Foto&nbsp;+&nbsp;Vídeo</span>Com olhar criativo</div>
+          <div><span>100%</span>histórias reais, sem roteiro</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Portfólio</p>
+        <h2>Cada casamento tem os seus capítulos</h2>
+        <p class="section-sub">Uma seleção de momentos: da cerimônia à pista de dança, passando pelos detalhes que fazem cada celebração única.</p>
+      </div>
+
+      <div class="filters reveal" id="filters">
+        <button class="filter-btn active" data-filter="all">Tudo</button>
+        <button class="filter-btn" data-filter="cerimonia">Cerimônia</button>
+        <button class="filter-btn" data-filter="festa">Festa</button>
+        <button class="filter-btn" data-filter="ambientado">Ambientação</button>
+        <button class="filter-btn" data-filter="convidados">Convidados</button>
+        <button class="filter-btn" data-filter="detalhes">Detalhes</button>
+      </div>
+
+      <div class="gallery" id="gallery">
+        <!-- items injected by data below -->
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section class="section videos" id="videos">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Vídeos</p>
+        <h2>O movimento por trás da imagem</h2>
+        <p class="section-sub">Clipes curtos, editados com trilha sonora, pra reviver o ritmo e a emoção do dia.</p>
+      </div>
+
+      <div class="video-grid reveal">
+        <div class="video-card" data-video="assets/video/cerimonia-1.mp4">
+          <video muted loop playsinline preload="metadata" poster="assets/img/cerimonia-1-poster.jpg">
+            <source src="assets/video/cerimonia-1.mp4" type="video/mp4">
+          </video>
+          <div class="video-card-label">
+            <span>Cerimônia</span>
+            <button class="play-btn" aria-label="Reproduzir vídeo">▶</button>
+          </div>
+        </div>
+        <div class="video-card" data-video="assets/video/cerimonia-2.mp4">
+          <video muted loop playsinline preload="metadata" poster="assets/img/cerimonia-2-poster.jpg">
+            <source src="assets/video/cerimonia-2.mp4" type="video/mp4">
+          </video>
+          <div class="video-card-label">
+            <span>Cerimônia</span>
+            <button class="play-btn" aria-label="Reproduzir vídeo">▶</button>
+          </div>
+        </div>
+        <div class="video-card" data-video="assets/video/cerimonia-3.mp4">
+          <video muted loop playsinline preload="metadata" poster="assets/img/cerimonia-3-poster.jpg">
+            <source src="assets/video/cerimonia-3.mp4" type="video/mp4">
+          </video>
+          <div class="video-card-label">
+            <span>Cerimônia</span>
+            <button class="play-btn" aria-label="Reproduzir vídeo">▶</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇO -->
+  <section class="section servico" id="servico">
+    <div class="container servico-grid">
+      <div class="servico-text reveal">
+        <p class="eyebrow">O serviço</p>
+        <h2>Storymaker Bôdhi</h2>
+        <p class="section-sub">Um pacote pensado pra registrar tudo, sem interferir em nada. A gente circula discretamente pelo evento, com foto e vídeo em uma linguagem só.</p>
+        <ul class="servico-list">
+          <li><span>01</span>Cobertura fotográfica documental do início ao fim da celebração</li>
+          <li><span>02</span>Vídeos curtos, prontos para redes sociais e para reviver o dia</li>
+          <li><span>03</span>Edição com direção de cor e identidade autoral Bôdhi</li>
+          <li><span>04</span>Entrega organizada em ambiente digital, com acesso facilitado</li>
+        </ul>
+        <a href="#contato" class="btn btn-primary">Solicitar proposta</a>
+      </div>
+      <div class="servico-image reveal">
+        <img src="assets/img/festa-1.jpg" alt="Momento de festa do casamento" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section contato" id="contato">
+    <div class="container contato-inner reveal">
+      <p class="eyebrow">Vamos conversar</p>
+      <h2>Conta pra gente<br>a história do seu dia.</h2>
+      <p class="section-sub">Fale com a Bôdhi e monte o pacote de storymaker ideal para o seu casamento.</p>
+      <div class="contato-actions">
+        <a href="https://wa.me/5511960692255" class="btn btn-primary" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://instagram.com/bodhi.mkt" class="btn btn-ghost" target="_blank" rel="noopener">@bodhi.mkt</a>
+      </div>
+    </div>
+    <div class="contato-photo-full reveal">
+      <img src="assets/img/equipe-bodhi.jpg" alt="Érika e sócia, equipe Bôdhi" loading="lazy">
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a href="#top" class="wordmark small"><img src="assets/img/logo-bodhi.png" alt="Bôdhi" class="logo-img"><span>storymaker</span></a>
+    <p>&copy; <span id="year"></span> Bôdhi. Histórias de casamento contadas com propósito.</p>
+    <a href="#top" class="back-top" aria-label="Voltar ao topo">↑</a>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">✕</button>
+  <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Anterior">‹</button>
+  <img id="lightboxImg" src="" alt="">
+  <button class="lightbox-nav next" id="lightboxNext" aria-label="Próxima">›</button>
+</div>
+
+<!-- VIDEO MODAL -->
+<div class="video-modal" id="videoModal">
+  <button class="lightbox-close" id="videoModalClose" aria-label="Fechar">✕</button>
+  <video id="videoModalPlayer" controls playsinline></video>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
