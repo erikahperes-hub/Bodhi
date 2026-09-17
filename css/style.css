@@ -171,7 +171,7 @@ h2{font-size:clamp(1.8rem,3.4vw,2.7rem);line-height:1.2;}
 }
 
 /* ============ Sections ============ */
-.section{padding:130px 0;position:relative;}
+.section{padding:130px 0;position:relative;scroll-margin-top:90px;}
 .section-head{max-width:640px;margin-bottom:56px;}
 .section-head h2{margin-bottom:18px;}
 
@@ -293,7 +293,7 @@ h2{font-size:clamp(1.8rem,3.4vw,2.7rem);line-height:1.2;}
   content:'';position:absolute;inset:0;z-index:1;
   background:linear-gradient(180deg, var(--bg) 0%, rgba(11,11,10,0) 12%);
 }
-.contato-photo-full img{width:100%;height:100%;object-fit:cover;object-position:center 68%;}
+.contato-photo-full img{width:100%;height:100%;object-fit:cover;object-position:center 40%;}
 .contato .section-sub{margin:18px auto 36px;text-align:center;}
 .contato-actions{display:flex;gap:18px;flex-wrap:wrap;justify-content:center;}
 
