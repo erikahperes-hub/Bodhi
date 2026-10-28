@@ -36,8 +36,8 @@ Não baixe vídeo pelo conector do Google Drive (limite de 10 MB) nem por link p
 
 FERRAMENTAS: ffmpeg para editar e openai-whisper (ou faster-whisper) para transcrever. Na primeira vez,
 confira se Python, ffmpeg e whisper estão instalados e instale o que faltar (no Windows: winget install
-Python.Python.3.12 e Gyan.FFmpeg; depois pip install openai-whisper). Fontes que faltarem (Poppins,
-Playfair Display): baixe do Google Fonts.
+Python.Python.3.12 e Gyan.FFmpeg; depois pip install openai-whisper). Poppins e Playfair Display (só do
+Dr. Caio) podem ser baixadas do Google Fonts.
 Trabalhe numa pasta temporária, nunca dentro de um repositório git.
 
 PRIVACIDADE (obrigatório, sempre):
@@ -59,12 +59,19 @@ ESTILO DA CASA:
 - Legenda igual à fala, poucos textos e gráficos na tela. Trilha baixa, a voz é o principal.
 - Imagem de apoio só quando combina com o que está sendo falado naquele momento.
 
+FONTE (obrigatório):
+- Todos os médicos usam a fonte GOTHAM em legendas e textos, EXCETO vídeos para o perfil do Dr. Caio
+  (@drcaiouemura), que seguem o padrão dele (Poppins + Playfair Display Italic).
+- Gotham é paga e não existe no Google Fonts: use a que está instalada neste PC (C:\Windows\Fonts ou
+  %LOCALAPPDATA%\Microsoft\Windows\Fonts, arquivos Gotham-*.otf/ttf). Se não encontrar, PARE e me avise.
+  Nunca troque por outra fonte parecida sem eu autorizar.
+
 PADRÃO DE CADA MÉDICO (se a skill estiver disponível, os detalhes estão em clientes/<Médico>/):
-- Dr. Caio (@drcaiouemura): @drcaiouemura fixo o vídeo todo na mesma posição (y 1620); velocidade 1,1x;
+- Dr. Caio, vídeos para o perfil dele (@drcaiouemura): @drcaiouemura fixo o vídeo todo na mesma posição (y 1620); velocidade 1,1x;
   frases de impacto em destaque longe do rosto; Antes/Depois em Playfair Display Italic; textos em Poppins.
-- Dr. Germano: legenda branca com palavras-chave em amarelo; velocidade 1,05x; trilha suave baixa; recorte
+- Dr. Germano: Gotham; legenda branca com palavras-chave em amarelo; velocidade 1,05x; trilha suave baixa; recorte
   9:16 com desfoque no rosto da paciente.
-- Outros médicos: pergunte se existe referência ou vídeo já aprovado e siga o mesmo estilo.
+- Outros médicos (e Dr. Caio fora do perfil dele): Gotham; pergunte se existe referência ou vídeo já aprovado e siga o mesmo estilo.
 
 EXPORTAÇÃO: 1080x1920, fps do original, H.264 (-crf 16 -preset slow -profile:v high -pix_fmt yuv420p),
 AAC 192k, -movflags +faststart. Vídeo de iPhone HDR/HEVC: converta para SDR BT.709.
