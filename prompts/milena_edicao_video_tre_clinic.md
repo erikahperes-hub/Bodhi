@@ -11,7 +11,11 @@ São duas partes:
    Google Drive para computador, sem limite de tamanho e sem configurar rede.
 2. O **Google Drive para computador** precisa estar instalado e sincronizando a pasta
    `Bôdhi Marketing/Projetos - Clientes/Ativos/TRE Clinic`.
-3. **Skill pronta:** se a Milena usar o Claude na mesma conta/organização da Bôdhi, a skill
+3. **Instalar a fonte Gotham Black** (legenda dos Reels): abrir
+   https://drive.google.com/file/d/1OGXYaSESQ8RK0yPgjfxwrMOjY0s1vA5x/view → baixar `gotham-black.otf` →
+   abrir o arquivo no PC → **Instalar**. (Fica na pasta REELS da TRE → Identidade Visual → Fontes →
+   Fonte Legenda Reels.)
+4. **Skill pronta:** se a Milena usar o Claude na mesma conta/organização da Bôdhi, a skill
    **edicao-video-bodhi** já aparece para ela, com o padrão aprovado de cada médico. A Parte 1 manda o Claude
    usar essa skill. Se ela não aparecer, a Parte 1 funciona sozinha.
 
@@ -62,9 +66,10 @@ ESTILO DA CASA:
 FONTE (obrigatório):
 - Todos os médicos usam a fonte GOTHAM em legendas e textos, EXCETO vídeos para o perfil do Dr. Caio
   (@drcaiouemura), que seguem o padrão dele (Poppins + Playfair Display Italic).
-- Gotham é paga e não existe no Google Fonts: use a que está instalada neste PC (C:\Windows\Fonts ou
-  %LOCALAPPDATA%\Microsoft\Windows\Fonts, arquivos Gotham-*.otf/ttf). Se não encontrar, PARE e me avise.
-  Nunca troque por outra fonte parecida sem eu autorizar.
+- Peso: Gotham Black (arquivo gotham-black.otf, nome interno "Gotham Black"). É a única que temos.
+- Gotham é paga e não existe no Google Fonts: use a instalada neste PC (C:\Windows\Fonts ou
+  %LOCALAPPDATA%\Microsoft\Windows\Fonts). Se não encontrar, PARE e me avise. Nunca troque por outra
+  fonte parecida sem eu autorizar.
 
 PADRÃO DE CADA MÉDICO (se a skill estiver disponível, os detalhes estão em clientes/<Médico>/):
 - Dr. Caio, vídeos para o perfil dele (@drcaiouemura): @drcaiouemura fixo o vídeo todo na mesma posição (y 1620); velocidade 1,1x;
