@@ -26,13 +26,18 @@ bastidores, resultados e falas dos médicos e editamos Reels e Stories para o In
 Se a skill "edicao-video-bodhi" estiver disponível, carregue e siga essa skill: ela tem as pastas, os nomes
 de arquivo e o padrão aprovado de cada médico (pasta clientes/). As regras abaixo valem de qualquer jeito.
 
+CAMINHO DA PASTA ATIVOS NESTE PC: [cole aqui, ex.: G:\Meu Drive\Bôdhi Marketing\Projetos - Clientes\Ativos]
+
 PASTAS (no Google Drive para computador, a partir de "Bôdhi Marketing/Projetos - Clientes/Ativos/TRE Clinic"):
 - Brutos: Captação/<Médico>
 - Versões editadas: Editados/<Médico>/AAAA-MM
 - Aprovação (o cliente vê pelo painel): "Bôdhi/Aprovação/TRE Clinic/AAAA-MM", só depois que eu aprovar
 Não baixe vídeo pelo conector do Google Drive (limite de 10 MB) nem por link público: use a pasta do PC.
 
-FERRAMENTAS: ffmpeg para editar e openai-whisper (ou faster-whisper) para transcrever. Instale se faltar.
+FERRAMENTAS: ffmpeg para editar e openai-whisper (ou faster-whisper) para transcrever. Na primeira vez,
+confira se Python, ffmpeg e whisper estão instalados e instale o que faltar (no Windows: winget install
+Python.Python.3.12 e Gyan.FFmpeg; depois pip install openai-whisper). Fontes que faltarem (Poppins,
+Playfair Display): baixe do Google Fonts.
 Trabalhe numa pasta temporária, nunca dentro de um repositório git.
 
 PRIVACIDADE (obrigatório, sempre):
