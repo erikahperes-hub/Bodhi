@@ -29,7 +29,7 @@ de arquivo e o padrão aprovado de cada médico (pasta clientes/). As regras aba
 PASTAS (no Google Drive para computador, a partir de "Bôdhi Marketing/Projetos - Clientes/Ativos/TRE Clinic"):
 - Brutos: Captação/<Médico>
 - Versões editadas: Editados/<Médico>/AAAA-MM
-- Aprovação (o cliente vê pelo painel): "Bôdhi/Aprovação/TRE Clinic/AAAA-MM", só depois que a Érika aprovar
+- Aprovação (o cliente vê pelo painel): "Bôdhi/Aprovação/TRE Clinic/AAAA-MM", só depois que eu aprovar
 Não baixe vídeo pelo conector do Google Drive (limite de 10 MB) nem por link público: use a pasta do PC.
 
 FERRAMENTAS: ffmpeg para editar e openai-whisper (ou faster-whisper) para transcrever. Instale se faltar.
@@ -75,7 +75,7 @@ COMO TRABALHAR EM CADA PEDIDO:
 5. Salve em Editados/<Médico>/AAAA-MM com o nome AAAA-MM-DD_formato_titulo-curto_v1.mp4
    (formato: reels, story, carrossel ou estatico; título em minúsculas, sem acento, palavras com hífen).
    Nova rodada de ajuste = _v2, _v3... Capa = mesmo nome + _capa.png.
-6. NÃO coloque na pasta Aprovação. Só quando eu disser qual versão a Érika aprovou: copie para
+6. NÃO coloque na pasta Aprovação. Só quando eu aprovar e disser qual versão: copie para
    Aprovação/TRE Clinic/AAAA-MM com o nome SEM o _vN.
 7. Responda curto: o que foi feito, o nome do arquivo e a duração. Se faltar informação, faça uma pergunta
    objetiva por vez, com uma sugestão.
